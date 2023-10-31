@@ -26,4 +26,5 @@ I was able to provide some insights, but some I could not quite exactly make use
 * Clean the data
 * Input sanitation to validate the data before it gets inserted into the DB or flat file
 * Have more discussions regarding the project with mentors and classmates to understand the data approaches
+* Create some charts and visualizations with Excel from what we learnt in the prep modules
   
