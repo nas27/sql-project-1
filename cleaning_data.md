@@ -263,14 +263,18 @@ FROM ANALYTICS
 WHERE USERID IS NULL
 
 --Attempting to fix some of the relationships
+```
 ALTER TABLE PRODUCTS ADD CONSTRAINT PK_SKU PRIMARY KEY ("SKU")
 ALTER TABLE SALES_BY_SKU ADD CONSTRAINT PK_S_SKU PRIMARY KEY ("productsku")
 ALTER TABLE SALES_REPORT ADD CONSTRAINT PK_SR_SKU PRIMARY KEY("productSKU")
 ALTER TABLE ANALYTICS ADD CONSTRAINT FK_ANALYTICS_SESSION
 FOREIGN KEY ("visitNumber")
+```
 
 --attempting to add a relationship but it failed
+```
 ALTER TABLE all_sessions
 ADD CONSTRAINT fk_v_id
 FOREIGN KEY ("fullvisitorid")
 REFERENCES analytics(fullVisitorId);
+```
