@@ -4,11 +4,11 @@
 This project is an introduction to a larger scale end-to-end analysis project. In this I will get my feet wet, importing data, analyzing, cleaning, transforming and finally QA'ing the data to solve some business questions.
 
 ## Process
-### 1. I started watching videos to understand the import process and the nature of comma seperated flat files. I spent a great deal of time analyzing the data types and how they best suit the  information I had.
-### 2. Once the data was in the PGadmin project, I began data exploration in order to understand just how dirty the data came in.
-### 3. The transforming process was tricky as the data was not cleann even after I completed the process and I wanted to pace myself in order to meet the deadline.
-### 4. Lastly, I used my own research and ideas to formulate questions that I believe add value to the questions.
-### 5. After which I began thinking about the creative process of quality assurance.
+ 1. I started watching videos to understand the import process and the nature of comma seperated flat files. I spent a great deal of time analyzing the data types and how they best suit the  information I had.
+ 2. Once the data was in the PGadmin project, I began data exploration in order to understand just how dirty the data came in.
+ 3. The transforming process was tricky as the data was not cleann even after I completed the process and I wanted to pace myself in order to meet the deadline.
+ 4. Lastly, I used my own research and ideas to formulate questions that I believe add value to the questions.
+ 5. After which I began thinking about the creative process of quality assurance.
 
 ## Results
 I discovered through internet research on marketing and ecommerce what some of the terminology in the database meant. From there I began to think about how it could be used. 
