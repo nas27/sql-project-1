@@ -1,7 +1,7 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-(fill in your description and goals here)
+This project is an introduction to a larger scale end-to-end analysis project. In this I will get my feet wet, importing data, analyzing, cleaning, transforming and finally QA'ing the data to solve some business questions.
 
 ## Process
 ### (your step 1)
