@@ -6,7 +6,7 @@ What issues will you address by cleaning the data?
 * Invalid values
 * Inefficient values i.e. (not set) text
 
-Queries:
+### Queries:
 ## Data Cleaning
 
 ```
