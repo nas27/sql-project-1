@@ -90,11 +90,11 @@ FROM SALES_REPORT SR
 JOIN ALL_SESSIONS ALS ON ALS."productsku" = SR."productSKU"
 ```
 
-I wanted to explore AI and how it can be used to streamline and aid the process. So I then had ChatGPT transform it into a ranked CTE and made sure I understood the logic by asking it questions to confirm my understanding:
+> I wanted to explore AI and how it can be used to streamline and aid the process. So I then had ChatGPT transform it into a ranked CTE and made sure I understood the logic by asking it questions to confirm my understanding:
 
 
-OpenAI. (2023). ChatGPT (10 28 version) [Large language model]. https://chat.openai.com
-
+Cite: _OpenAI. (2023). ChatGPT (10 28 version) [Large language model]. https://chat.openai.com_
+```
 WITH RankedProducts AS (
     SELECT
         als.city,
@@ -114,7 +114,8 @@ SELECT
     total_ordered
 FROM RankedProducts
 WHERE ranking = 1;
-
+```
+```
 SELECT distinct("productSKU"),
 	ALS.V2PRODUCTNAME,
 	TOTAL_ORDERED, city, country
@@ -122,7 +123,7 @@ FROM SALES_REPORT SR
 JOIN ALL_SESSIONS ALS ON ALS."productsku" = SR."productSKU"
 group by distinct("productSKU"),ALS.V2PRODUCTNAME,TOTAL_ORDERED,city, country
 order by TOTAL_ORDERED desc;
-
+```
 
 
 >**Answer:** Ballpoint pens in many cities in the U.S.A including Boston, Mountain View, Palo Alto, San Francisco, Santa Clara, and Seattle.
