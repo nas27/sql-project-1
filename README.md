@@ -20,11 +20,13 @@ I was able to provide some insights, but some I could not quite exactly make use
 * Cleaning the data: Concentrating too much time on a single puzzle piece, I neglected the whole. As I am used to perfectly pristine data this was a wakeup call to the real world.
 * Scope: Prioritizing the extent of which to focus on each area
 * Technical Difficulties: Crashing on MacOS after OS update
-* Confidence: Not having an answer to check to get immediate feedback on a query.
+* Confidence: Not having an answer to check to get immediate feedback on a query
+* Database design: understanding how to fix PK and FK constraints 
 
 ## Future Goals
 * Clean the data
 * Input sanitation to validate the data before it gets inserted into the DB or flat file
 * Have more discussions regarding the project with mentors and classmates to understand the data approaches
 * Create some charts and visualizations with Excel from what we learnt in the prep modules
+* Properly implement the relationships between tables
   
