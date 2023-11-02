@@ -72,11 +72,29 @@ July seems to be the time when users spent the most time on site. Therefore it w
 outside of the usual sale periods i.e. Boxing day.
 
 
-### Question 4: What products get the most bounces?
+### Question 4: What is the country and product that has the most stock of an item?
+
+**SQL Queries:**
+```
+SELECT A.COUNTRY,
+	P.NAME as ProductName,
+	MAX("stockLevel"::integer) as MostStock
+FROM ALL_SESSIONS A
+JOIN PRODUCTS P ON A.PRODUCTSKU = P."SKU"
+GROUP BY A.COUNTRY,
+	P.NAME
+ORDER BY MAX("stockLevel"::integer) DESC
+LIMIT 1;
+```
+
+**Answer:**
+Water bottles have the most stock in the US with 19,675 units. And thus it could be wise to have a sale/promotion to get rid of some stock and free up inventory space.
+
+
+### Question 5: What products get the most bounces? [Incomplete]
 Bounce rate is an Internet marketing term used in web traffic analysis. It represents the percentage of visitors who enter the site and then leave ("bounce") rather than continuing to view other pages within the same site. -Wikipedia
 
 **SQL Queries:**
-The data was not suitable to my knowledge to create a suitable query.
-
+I was not able to generate a meaningful query.
 
 **Answer:** The idea behind this question if you check if certain products can be 'offputting' and thus create a different site or section where those users who specifically want to shop for it can go.
