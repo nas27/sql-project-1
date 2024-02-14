@@ -89,12 +89,3 @@ LIMIT 1;
 
 **Answer:**
 Water bottles have the most stock in the US with 19,675 units. And thus it could be wise to have a sale/promotion to get rid of some stock and free up inventory space.
-
-
-### Question 5: What products get the most bounces? [Incomplete]
-Bounce rate is an Internet marketing term used in web traffic analysis. It represents the percentage of visitors who enter the site and then leave ("bounce") rather than continuing to view other pages within the same site. -Wikipedia
-
-**SQL Queries:**
-I was not able to generate a meaningful query.
-
-**Answer:** The idea behind this question if you check if certain products can be 'offputting' and thus create a different site or section where those users who specifically want to shop for it can go.
